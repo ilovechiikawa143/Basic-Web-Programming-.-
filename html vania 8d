@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>My Simple Site ૮꒰ ˶• ༝ •˶꒱ა ♡</h1>
+    <div class="menu">
+      <a href="#home"> Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>Welcomee! ( ˶ˆ꒳ˆ˵ )</h2>
+    <p>This is a simple website made with HTML and CSS.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About ૮ • ﻌ - ა</h2>
+    <p>Heloo :], I created this website as part of my web programming project to learn the basics of HTML and CSS! (- by chiikawa ˎˊ)</p>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Mee જ⁀➴</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+    <footer>
+        <p>&copy; vannwebsite | ✩°｡🧸𓏲⋆.🧺𖦹 ₊˚</p>
+    </footer>
+</body>
+</html>
